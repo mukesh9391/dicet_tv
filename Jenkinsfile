@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('code from github') {
             steps {
-                git 'https://github.com/BHUPESHGCTECH/dicet_tv.git'
+                git 'https://github.com/mukesh9391/dicet_tv.git'
             }
         }
         stage('Build the code') {
